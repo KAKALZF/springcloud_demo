@@ -4,32 +4,35 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wisely</groupId>
-    <artifactId>ch12</artifactId>
+    <groupId>com.kd100.cloud</groupId>
+    <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Cloud Native App</name>
+    <name>kd100_cloud_platform</name>
 
     <modules>
         <module>config</module>
         <module>discovery</module>
-        <module>ui</module>
-        <module>person</module>
-		<module>some</module>
-        <module>monitor</module>
+		<module>order-service</module>
+		<module>platform-hub</module>
+		<module>sale-hub</module>
     </modules>
-
-    <parent>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Angel.SR3</version>
-        <relativePath/>
-    </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
+        <springboot.version>1.5.2.RELEASE</springboot.version>
+        <springcloud.version>Dalston.SR1</springcloud.version>
     </properties>
+
+    <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Dalston.SR1</version>
+        <relativePath/>
+    </parent>
+
+
 
     <dependencies>
         <dependency>
@@ -56,14 +59,7 @@
         </plugins>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <groupId>com.spotify</groupId>
-                    <artifactId>docker-maven-plugin</artifactId>
-                    <version>0.2.9</version>
-                    <configuration>
-                        <skipDockerBuild>true</skipDockerBuild>
-                    </configuration>
-                </plugin>
+
             </plugins>
         </pluginManagement>
     </build>
@@ -104,5 +100,7 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
-    
+
+
+
 </project>

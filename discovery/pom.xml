@@ -9,15 +9,16 @@
     <name>discovery</name>
     <description>Discovery App</description>
 
+
     <parent>
-        <groupId>com.wisely</groupId>
-        <artifactId>ch12</artifactId>
+        <groupId>com.kd100.cloud</groupId>
+        <artifactId>parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <properties>
-        <start-class>com.wisely.discovery.DiscoveryApplication</start-class>
+        <start-class>com.kd100.cloudplatform.discovery.DiscoveryApplication</start-class>
     </properties>
 
     <dependencies>

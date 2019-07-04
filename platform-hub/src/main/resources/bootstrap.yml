@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: paltform-hub
+
+eureka:
+  instance:
+    non-secure-port: ${server.port}
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9700}/eureka/

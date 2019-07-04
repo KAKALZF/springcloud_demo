@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sale-hub
+
+eureka:
+  instance:
+    non-secure-port: ${server.port}
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:9700}/eureka/
