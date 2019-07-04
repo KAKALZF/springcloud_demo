@@ -1,6 +1,6 @@
 spring:
   application:
-    name: paltform-hub
+    name: platform-hub
 
 eureka:
   instance:

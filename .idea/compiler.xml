@@ -9,6 +9,7 @@
         <module name="config" />
         <module name="discovery" />
         <module name="order-service" />
+        <module name="platform-hub" />
         <module name="platform_hub" />
         <module name="platform_hub (1)" />
         <module name="sale-hub" />
@@ -20,15 +21,17 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ch12" target="1.8" />
-      <module name="config" target="1.8" />
-      <module name="discovery" target="1.8" />
+      <module name="config" target="1.7" />
+      <module name="discovery" target="1.7" />
+      <module name="kd100_cloud_platform" target="1.7" />
       <module name="kd_cloud_platform" target="1.8" />
       <module name="monitor" target="1.8" />
-      <module name="order-service" target="1.8" />
+      <module name="order-service" target="1.7" />
       <module name="person" target="1.8" />
+      <module name="platform-hub" target="1.7" />
       <module name="platform_hub" target="1.8" />
       <module name="platform_hub (1)" target="1.8" />
-      <module name="sale-hub" target="1.8" />
+      <module name="sale-hub" target="1.7" />
       <module name="sale_hub" target="1.8" />
       <module name="some" target="1.8" />
       <module name="ui" target="1.8" />
