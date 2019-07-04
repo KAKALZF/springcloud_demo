@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients //1
-public class SaleHubApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(SaleHubApplication.class, args);
+public class PlatformHubApplication {
+	public static void main(String[] args) {
+        SpringApplication.run(PlatformHubApplication.class, args);
     }
 }

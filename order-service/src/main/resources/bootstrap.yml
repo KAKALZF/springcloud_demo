@@ -9,7 +9,7 @@ spring:
         service-id: CONFIG
 eureka:
   instance:
-    non-secure-port: ${server.port}
+    non-secure-port: 9703
   client:
     service-url:
       defaultZone: http://${eureka.host:localhost}:${eureka.port:9700}/eureka/

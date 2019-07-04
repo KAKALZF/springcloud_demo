@@ -11,5 +11,5 @@ eureka:
       instanceId: ${spring.application.name}:${random.value} #4
   client:
     service-url:
-      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9070}/eureka/ #5
+      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9700}/eureka/ #5
 
