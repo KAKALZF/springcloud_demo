@@ -8,3 +8,15 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9700}/eureka/
+zuul:
+  routes:
+    orderRouter:
+      path: /order-service/**
+      serviceId: order-service
+#ribbon:
+#  eureka:
+#    enabled: false
+
+#order-service:
+#  ribbon:
+#    listOfServers: example.com,google.com

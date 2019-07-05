@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/kd100_cloud_platform.iml" filepath="$PROJECT_DIR$/kd100_cloud_platform.iml" />
       <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform-hub/platform-hub.iml" filepath="$PROJECT_DIR$/platform-hub/platform-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platform-hub/platform-hub.iml" filepath="$PROJECT_DIR$/platform-hub/platform-hub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sale-hub/sale-hub.iml" filepath="$PROJECT_DIR$/sale-hub/sale-hub.iml" />
       <module fileurl="file://$PROJECT_DIR$/sale-hub/sale-hub.iml" filepath="$PROJECT_DIR$/sale-hub/sale-hub.iml" />
     </modules>
   </component>
