@@ -1,3 +1,5 @@
+server:
+  port: 9702
 spring:
   application:
     name: order-service
@@ -9,7 +11,7 @@ spring:
         service-id: CONFIG
 eureka:
   instance:
-    non-secure-port: 9703
+    non-secure-port: ${server.port}
   client:
     service-url:
       defaultZone: http://${eureka.host:localhost}:${eureka.port:9700}/eureka/

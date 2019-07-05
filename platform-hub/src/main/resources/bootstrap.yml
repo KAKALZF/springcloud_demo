@@ -1,11 +1,9 @@
 spring:
   application:
     name: platform-hub
-
 eureka:
   instance:
     non-secure-port: ${server.port}
-  client:
     service-url:
       defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9700}/eureka/
 zuul:
@@ -13,9 +11,9 @@ zuul:
     orderRouter:
       path: /order-service/**
       serviceId: order-service
-ribbon:
-  eureka:
-    enabled: false
+#ribbon:
+#  eureka:
+#    enabled: false
 
 #order-service:
 #  ribbon:
