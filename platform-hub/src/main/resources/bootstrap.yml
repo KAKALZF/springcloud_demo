@@ -13,9 +13,9 @@ zuul:
     orderRouter:
       path: /order-service/**
       serviceId: order-service
-#ribbon:
-#  eureka:
-#    enabled: false
+ribbon:
+  eureka:
+    enabled: false
 
 #order-service:
 #  ribbon:
