@@ -15,7 +15,7 @@ public class UiController {
     public String sendMessage(String personName) {
         String res = orderClient.test("kaka");
         System.out.println("调用成功");
-        return res;
+        return "sale-hub success";
     }
 
 }

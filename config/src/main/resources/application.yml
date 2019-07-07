@@ -3,7 +3,7 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/config #1
+          search-locations: classpath:/config/order-service/,classpath:/config/platform-hub/ #1
 
 server:
   port: 8888

@@ -1,19 +1,32 @@
+server:
+  port: 9701
 spring:
   application:
     name: platform-hub
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        enabled: true
+        service-id: CONFIG
 eureka:
   instance:
     non-secure-port: ${server.port}
     service-url:
-      defaultZone: http://${eureka.host:127.0.0.1}:${eureka.port:9700}/eureka/
+      defaultZone: http://127.0.0.1:9700/eureka/,http://127.0.0.1:8761/eureka/
 zuul:
+  ignored-services: '*'
   routes:
     orderRouter:
       path: /order-service/**
       serviceId: order-service
+logging:
+  level:
+    com.netflix: debug
+
 #ribbon:
 #  eureka:
-#    enabled: false
+#    enabled: true
 
 #order-service:
 #  ribbon:
