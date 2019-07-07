@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7d4b4f5-640e-4a5d-bdce-5c15fec189d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-prod.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/src/main/resources/config/platform-hub/platform-hub-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/src/main/resources/config/platform-hub/platform-hub-prod.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platform-hub/src/main/java/com/kd100/cloudplatform/platformhub/controller/TestController.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/src/main/resources/config/order-service.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platform-hub/src/main/resources/application.yml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/config/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery/target/classes/application.yml" afterPath="$PROJECT_DIR$/discovery/target/classes/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-service/src/main/java/com/kd100/cloud/platform/order/controller/OrderController.java" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/kd100/cloud/platform/order/controller/OrderController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-prod.yml" afterPath="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-prod.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/order-service/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/order-service/target/classes/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform-hub/pom.xml" afterPath="$PROJECT_DIR$/platform-hub/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platform-hub/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/platform-hub/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sale-hub/src/main/java/com/kd100/cloudplatform/platformhub/controller/UiController.java" afterPath="$PROJECT_DIR$/sale-hub/src/main/java/com/kd100/cloudplatform/platformhub/controller/UiController.java" />
     </list>
     <ignored path="$PROJECT_DIR$/ui/target/" />
     <ignored path="$PROJECT_DIR$/monitor/target/" />
@@ -50,58 +33,8 @@
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discovery/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NativeEnvironmentRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.3.1.RELEASE/spring-cloud-config-server-1.3.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="243" column="16" lean-forward="false" selection-start-line="243" selection-start-column="16" selection-end-line="243" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-hub/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order-service-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="260">
+              <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -112,39 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="platform-hub-prod.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/platform-hub/platform-hub-prod.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platform-hub/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,13 +119,13 @@
         <option value="$PROJECT_DIR$/platform-hub/src/main/java/com/kd100/cloudplatform/platformhub/controller/TestController.java" />
         <option value="$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/client/CloseableHttpClient.class" />
         <option value="$PROJECT_DIR$/discovery/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.1.RELEASE/spring-cloud-netflix-eureka-client-1.3.1.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.class" />
         <option value="$PROJECT_DIR$/platform-hub/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/platform-hub/src/main/resources/bootstrap.yml" />
         <option value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/1.3.1.RELEASE/spring-cloud-config-server-1.3.1.RELEASE.jar!/org/springframework/cloud/config/server/environment/NativeEnvironmentRepository.class" />
         <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-dev.yml" />
+        <option value="$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-prod.yml" />
       </list>
     </option>
@@ -378,6 +278,49 @@
               <item name="classes" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud_demo" type="b2602c69:ProjectViewProjectNode" />
@@ -648,7 +591,7 @@
       <workItem from="1562226191685" duration="5537000" />
       <workItem from="1562233185616" duration="601000" />
       <workItem from="1562288472861" duration="11273000" />
-      <workItem from="1562340657028" duration="18310000" />
+      <workItem from="1562340657028" duration="20653000" />
     </task>
     <task id="LOCAL-00001" summary="初步搭建">
       <created>1562229585301</created>
@@ -685,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562342863440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="优化">
+      <created>1562471664860</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562471664860</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55978000" />
+    <option name="totallyTimeSpent" value="58321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -712,7 +662,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5895611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41992882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074074" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -747,7 +697,8 @@
     <MESSAGE value="初步搭建" />
     <MESSAGE value="zuul负载均衡未实现" />
     <MESSAGE value="zuul负载均衡实现,${server.port}的问题是因为多个配置文件的原因，配置中心一个和本地一个" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul负载均衡实现,${server.port}的问题是因为多个配置文件的原因，配置中心一个和本地一个" />
+    <MESSAGE value="优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -998,14 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platform-hub/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -1057,6 +1000,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/platform-hub/platform-hub-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/order-service/order-service-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -1065,10 +1016,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/platform-hub/platform-hub-prod.yml">
+    <entry file="file://$PROJECT_DIR$/order-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+        <state relative-caret-position="260">
+          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
           <folding />
         </state>
       </provider>
