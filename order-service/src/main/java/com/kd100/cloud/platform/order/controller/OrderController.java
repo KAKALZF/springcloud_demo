@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
     @Value("${my.message}")
     private String msg;
+
     @GetMapping("/test")
     public String test(@RequestParam("name") String name) {
         System.out.println(name);
