@@ -6,12 +6,17 @@ spring:
   cloud:
     config:
       enabled: true
-      discovery:
-        enabled: true
-        service-id: CONFIG
+      uri: http://192.168.101.6:8888
+      #discovery:
+       # enabled: true
+      # service-id: CONFIG
 eureka:
   instance:
     non-secure-port: ${server.port}
   client:
     service-url:
-      defaultZone: http://127.0.0.1:9700/eureka/,http://127.0.0.1:8761/eureka/
+      defaultZone: http://192.168.101.6:9700/eureka/,http://127.0.0.1:8761/eureka/
+management:
+  security:
+    enabled: false
+log-path: ${user.dir}/log

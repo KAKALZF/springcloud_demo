@@ -1,5 +1,5 @@
 server:
-  port: 9701
+  port: 9703
 spring:
   application:
     name: platform-hub
@@ -12,6 +12,7 @@ spring:
 eureka:
   instance:
     non-secure-port: ${server.port}
+  client:
     service-url:
       defaultZone: http://127.0.0.1:9700/eureka/,http://127.0.0.1:8761/eureka/
 zuul:
@@ -31,3 +32,5 @@ logging:
 #order-service:
 #  ribbon:
 #    listOfServers: example.com,google.com
+my:
+  message: test

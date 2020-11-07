@@ -4,12 +4,8 @@ import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-/**
- * @author zefeng_lin
- * @date 2019/7/4 13:59
- */
 @FeignClient("order-service")
-public interface OrderClient {
+public interface OrderServiceClient {
     @GetMapping("/order/test")
-    String test(@RequestParam("name") String name);
+    void orderTest(@RequestParam("name") String name);
 }
