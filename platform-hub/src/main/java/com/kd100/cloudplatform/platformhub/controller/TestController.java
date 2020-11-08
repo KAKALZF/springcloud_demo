@@ -20,8 +20,7 @@ public class TestController {
 
     @GetMapping("/test")
     public String test(String name) {
-        System.out.println(name);
-        logger.info("=================" + name);
+//        logger.info("=================" + name);
         orderServiceClient.orderTest(name);
         return "test mysel api " + msg + ":" + name;
     }
