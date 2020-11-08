@@ -9,6 +9,11 @@ spring:
       discovery:
         enabled: true
         service-id: CONFIG
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  sleuth:
+    sampler:
+      probability: 1
 eureka:
   instance:
     non-secure-port: ${server.port}
@@ -34,3 +39,4 @@ logging:
 #    listOfServers: example.com,google.com
 my:
   message: test
+

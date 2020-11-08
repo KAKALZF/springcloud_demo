@@ -1,6 +1,8 @@
 spring:
   application:
     name: sale-hub
+  zipkin:
+    base-url: http://127.0.0.1:9411
 eureka:
   instance:
     non-secure-port: ${server.port}

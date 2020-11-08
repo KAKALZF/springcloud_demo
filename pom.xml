@@ -21,14 +21,17 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <springboot.version>1.5.9.RELEASE</springboot.version>
-        <springcloud.version>Dalston.SR1</springcloud.version>
+     <!--   <springboot.version>1.5.9.RELEASE</springboot.version>-->
+        <springboot.version>2.0.6.RELEASE</springboot.version>
+        <!--<springcloud.version>Dalston.SR1</springcloud.version>-->
+        <springcloud.version>Finchley.SR2</springcloud.version>
     </properties>
 
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Dalston.SR1</version>
+        <!--<version>Dalston.SR1</version>-->
+        <version>Finchley.SR2</version>
         <relativePath/>
     </parent>
 
@@ -43,6 +46,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

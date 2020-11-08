@@ -3,11 +3,12 @@
     <contextName>cloud.order-service</contextName>
 
     <springProperty scope="context" name="logPath" source="log-path"/>
+    <springProperty scope="context" name="appName" source="spring.application.name"/>
     <!-- 控制台 -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
           <!--  <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] [%-5level] %logger{36}.%method - %msg%n</pattern>-->
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}[order-service,%X{X-B3-TraceId:-},%X{userId:-}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}[${appName},%X{X-B3-TraceId:-},%X{X-B3-SpanId:-}] [%thread] %-5level %logger{50} - %msg%n</pattern>
             <charset>UTF-8</charset>
         </encoder>
     </appender>
